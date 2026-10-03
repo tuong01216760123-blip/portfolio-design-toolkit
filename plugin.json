@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "portfolio-design-toolkit",
+  "version": "1.0.0",
+  "description": "Reusable portfolio and frontend design workflows: portfolio direction, existing-project redesign, GPT-oriented art direction, interface QA/polish, and reference-site reverse engineering.",
+  "author": {
+    "name": "HUYNH MINH TUONG"
+  },
+  "repository": "https://github.com/tuong01216760123-blip/portfolio-design-toolkit",
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "design",
+    "ui",
+    "ux",
+    "motion",
+    "audit",
+    "redesign",
+    "codex",
+    "skills"
+  ]
+}

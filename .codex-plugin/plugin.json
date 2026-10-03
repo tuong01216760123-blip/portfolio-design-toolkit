@@ -1,0 +1,9 @@
+{
+  "name": "portfolio-design-toolkit",
+  "version": "1.0.0",
+  "description": "Reusable portfolio and frontend design workflows with pinned specialist skills and project-first precedence.",
+  "author": {
+    "name": "HUYNH MINH TUONG"
+  },
+  "skills": "./skills/"
+}
