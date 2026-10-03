@@ -57,3 +57,25 @@ npx skills add tuong01216760123-blip/portfolio-design-toolkit --skill '*' -a cod
 
 This repository is also packaged as a skills-only plugin through root `plugin.json` and `.codex-plugin/plugin.json`. ChatGPT installation still requires the account owner to add/upload the plugin package from the Plugins interface; repository publication by itself does not install it into an account.
 
+## Personal marketplace (ChatGPT desktop + Codex)
+
+Add this repository as a marketplace source once:
+
+```bash
+codex plugin marketplace add tuong01216760123-blip/portfolio-design-toolkit --ref main
+```
+
+Then restart the ChatGPT desktop app, open the Plugins Directory, select the **Tường Portfolio Tools** source, and install **Portfolio Design Toolkit**.
+
+To inspect configured marketplaces:
+
+```bash
+codex plugin marketplace list
+```
+
+To refresh later after this repository is updated:
+
+```bash
+codex plugin marketplace upgrade
+```
+
