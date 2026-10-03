@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "toolkit_version": "1.0.0",
+  "sources": [
+    {
+      "skill": "clone-website",
+      "repository": "JCodesMore/ai-website-cloner-template",
+      "commit": "f50066df3f4bdca057d3b239be6f49f17724bb13",
+      "source_path": ".agents/skills/clone-website",
+      "vendored_path": "skills/clone-website",
+      "license": "MIT"
+    },
+    {
+      "skill": "redesign-existing-projects",
+      "repository": "Leonxlnx/taste-skill",
+      "commit": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+      "source_path": "skills/redesign-skill",
+      "vendored_path": "skills/redesign-existing-projects",
+      "license": "MIT"
+    },
+    {
+      "skill": "gpt-taste",
+      "repository": "Leonxlnx/taste-skill",
+      "commit": "ce26fc25c0e5e8cab638f883de62d9a86ee5e45b",
+      "source_path": "skills/gpt-tasteskill",
+      "vendored_path": "skills/gpt-taste",
+      "license": "MIT"
+    },
+    {
+      "skill": "impeccable",
+      "repository": "pbakaus/impeccable",
+      "commit": "e103efe779e2dd01274dabae83531fef00bf2563",
+      "source_path": ".agents/skills/impeccable",
+      "vendored_path": "skills/impeccable",
+      "license": "Apache-2.0"
+    }
+  ]
+}
