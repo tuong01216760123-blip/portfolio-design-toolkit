@@ -18,5 +18,6 @@
     "redesign",
     "codex",
     "skills"
-  ]
+  ],
+  "skills": "./skills/"
 }
