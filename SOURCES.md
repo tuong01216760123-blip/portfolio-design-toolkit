@@ -27,3 +27,13 @@
 - Source: `.agents/skills/impeccable/`
 - Vendored: `skills/impeccable/`
 - License: Apache-2.0
+
+## react-bits-ui
+- Repository: https://github.com/DavidHDev/react-bits
+- Commit: `ca44b3f9ee180676a06d7de8ec6bea84cddff85b`
+- Upstream component source: **not vendored**
+- Local skill: `skills/react-bits-ui/`
+- Integration mode: reference + official registry install
+- License at pinned commit: MIT + Commons Clause License Condition v1.0
+- Reason for reference-only mode: upstream license restricts redistribution of the components themselves as a library/bundle/ported version.
+

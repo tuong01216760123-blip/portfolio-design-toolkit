@@ -9,6 +9,7 @@ Pinned reusable frontend-design skills for portfolio and web-app work.
 - `redesign-existing-projects` — Taste Skill for existing projects.
 - `gpt-taste` — Taste Skill variant oriented to GPT/Codex.
 - `impeccable` — Codex/OpenAI-compatible Impeccable skill.
+- `react-bits-ui` — selects and integrates React Bits animated UI from the official registry without vendoring its component library.
 
 ## Precedence
 
@@ -25,6 +26,7 @@ Third-party skills advise implementation; they must not silently replace an esta
 - Existing portfolio: `portfolio-director` → `redesign-existing-projects` → `impeccable` verification/polish.
 - Generic or timid visual output: add `gpt-taste`.
 - Reference website: `clone-website` for observation/reverse-engineering, then reinterpret through the project's own `DESIGN.md`.
+- Animated React UI/effects: `react-bits-ui` after design direction is settled.
 - Pre-release: `impeccable audit` and/or `impeccable polish`.
 
 ## Install

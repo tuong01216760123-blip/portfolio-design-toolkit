@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "toolkit_version": "1.0.0",
+  "toolkit_version": "1.1.0",
   "sources": [
     {
       "skill": "clone-website",
@@ -33,6 +33,16 @@
       "source_path": ".agents/skills/impeccable",
       "vendored_path": "skills/impeccable",
       "license": "Apache-2.0"
+    },
+    {
+      "skill": "react-bits-ui",
+      "repository": "DavidHDev/react-bits",
+      "commit": "ca44b3f9ee180676a06d7de8ec6bea84cddff85b",
+      "source_path": null,
+      "vendored_path": "skills/react-bits-ui",
+      "integration_mode": "reference-only-official-registry",
+      "component_source_vendored": false,
+      "license": "MIT + Commons Clause License Condition v1.0"
     }
   ]
 }

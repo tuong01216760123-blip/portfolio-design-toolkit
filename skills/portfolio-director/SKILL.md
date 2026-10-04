@@ -26,6 +26,7 @@ Treat a portfolio as an experience surface: the work and evidence lead; interfac
 - Existing portfolio improvement: use `redesign-existing-projects`; add `gpt-taste` only when stronger character, less generic AI styling, more authored motion, or more layout variance is requested.
 - Verification and finishing: use `impeccable` for critique, audit, layout, typeset, animate, harden, optimize or polish as appropriate.
 - Reference URL: use `clone-website` to observe layout logic, responsive behavior, interaction states, motion sequencing, component boundaries and technical patterns; reinterpret findings through the project's `DESIGN.md`.
+- Animated React UI/effects: use `react-bits-ui` only after design direction is settled. Treat React Bits as an implementation library, not a source of art direction; install only the minimum component(s) needed from the official registry.
 - Pre-release: prefer `impeccable audit` and `impeccable polish`.
 
 Do not run every skill by default. Use the smallest set that materially improves the requested work.
