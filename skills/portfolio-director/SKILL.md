@@ -39,3 +39,21 @@ If skills disagree, prefer the action supported by the project's explicit design
 
 ## Completion
 For implementation tasks, finish with a bounded verification pass covering rendered result, responsive behavior, interaction regressions, and obvious accessibility/performance issues. Avoid open-ended polish loops.
+
+
+## ChatGPT Web execution routing
+When running inside ChatGPT Web or Work, prefer connected first-party or user-installed capabilities instead of assuming a local shell exists.
+
+Use connected tools only when they materially help:
+- GitHub: inspect repository state, read/write code, issues, pull requests, and CI evidence.
+- Vercel: inspect deployments, build state, and deployment outcomes for Vercel-hosted projects.
+- TinyFish: perform user-directed browser inspection or staging QA when live browser interaction is needed.
+- Superpowers: use its planning, debugging, TDD, and collaboration workflows when the task benefits from structured software-development discipline.
+
+Do not require Codex merely because a task involves code. If the work can be completed through connected repository, deployment, and browser capabilities, keep the workflow in ChatGPT Web/Work.
+
+For implementation tasks, prefer this bounded loop when the required capabilities are connected:
+
+request → inspect project truth → plan → GitHub change → CI/deploy evidence → browser QA → fix if needed → final verification.
+
+If a required capability is unavailable, say exactly which step is blocked rather than pretending it ran.
