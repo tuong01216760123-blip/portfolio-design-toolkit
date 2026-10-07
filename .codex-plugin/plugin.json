@@ -1,6 +1,6 @@
 {
   "name": "portfolio-design-toolkit",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Project-first portfolio and frontend design workflows with specialist routing, React Bits integration, reference analysis, audit and polish.",
   "author": {
     "name": "HUYNH MINH TUONG"
@@ -8,16 +8,17 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Portfolio Design Toolkit",
-    "shortDescription": "Direct, redesign, audit and polish portfolio web experiences",
+    "shortDescription": "Portfolio design workflows",
     "longDescription": "Preserves project truth first, then coordinates focused portfolio design skills for redesign, visual direction, motion, reference analysis and final interface QA.",
     "developerName": "HUYNH MINH TUONG",
-    "category": "Design",
+    "category": "Developer Tools",
     "capabilities": [
-      "Read"
+      "Portfolio design",
+      "Frontend review"
     ],
     "brandColor": "#111111",
     "defaultPrompt": [
-      "Improve this portfolio without replacing its established visual identity.",
+      "Improve this portfolio while preserving its established visual identity.",
       "Audit this portfolio and propose the highest-impact bounded fixes.",
       "Polish this portfolio for release."
     ]
