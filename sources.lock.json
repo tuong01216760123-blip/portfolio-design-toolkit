@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "toolkit_version": "1.2.0",
+  "toolkit_version": "1.2.1",
   "sources": [
     {
       "skill": "clone-website",
