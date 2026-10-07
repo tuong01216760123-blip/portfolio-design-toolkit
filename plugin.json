@@ -1,44 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "portfolio-design-toolkit",
-  "version": "1.2.1",
-  "description": "Portfolio and frontend design workflows that preserve project identity, coordinate specialist design skills, and guide redesign, UI motion, reference analysis, audit, polish, and pre-release verification.",
-  "author": {
-    "name": "HUYNH MINH TUONG"
-  },
-  "repository": "https://github.com/tuong01216760123-blip/portfolio-design-toolkit",
-  "keywords": [
-    "portfolio",
-    "frontend",
-    "design",
-    "ui",
-    "ux",
-    "motion",
-    "audit",
-    "redesign",
-    "skills",
-    "react-bits"
-  ],
-  "extensions": {
-    "com.openai": {
-      "onboardingSkill": "./skills/portfolio-director/SKILL.md",
-      "interface": {
-        "displayName": "Portfolio Design Toolkit",
-        "shortDescription": "Portfolio design workflows",
-        "longDescription": "A project-first portfolio design toolkit that preserves PRODUCT.md, DESIGN.md and AGENTS.md as source-of-truth, then routes work to focused skills for redesign, authored visual direction, React Bits integration, reference-site analysis and final UI/UX polish.",
-        "developerName": "HUYNH MINH TUONG",
-        "category": "Developer Tools",
-        "capabilities": [
-          "Portfolio design",
-          "Frontend review"
-        ],
-        "brandColor": "#111111",
-        "defaultPrompt": [
-          "Improve this portfolio while preserving its established visual identity.",
-          "Audit this portfolio and propose the highest-impact bounded fixes.",
-          "Polish this portfolio for release across responsive, motion, accessibility, and performance."
-        ]
-      }
-    }
-  }
+  "name": "portfolio-design-toolkit-web",
+  "version": "1.0.0",
+  "description": "Portfolio design skills for ChatGPT Web."
 }
