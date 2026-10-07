@@ -1,9 +1,30 @@
 {
   "name": "portfolio-design-toolkit",
-  "version": "1.1.0",
-  "description": "Reusable portfolio and frontend design workflows with pinned specialist skills, React Bits registry integration, and project-first precedence.",
+  "version": "1.2.0",
+  "description": "Project-first portfolio and frontend design workflows with specialist routing, React Bits integration, reference analysis, audit and polish.",
   "author": {
     "name": "HUYNH MINH TUONG"
   },
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Portfolio Design Toolkit",
+    "shortDescription": "Direct, redesign, audit and polish portfolio web experiences",
+    "longDescription": "Preserves project truth first, then coordinates focused portfolio design skills for redesign, visual direction, motion, reference analysis and final interface QA.",
+    "developerName": "HUYNH MINH TUONG",
+    "category": "Design",
+    "capabilities": [
+      "Read"
+    ],
+    "brandColor": "#111111",
+    "defaultPrompt": [
+      "Improve this portfolio without replacing its established visual identity.",
+      "Audit this portfolio and propose the highest-impact bounded fixes.",
+      "Polish this portfolio for release."
+    ]
+  },
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/portfolio-director/SKILL.md"
+    }
+  }
 }
