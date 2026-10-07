@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "portfolio-design-toolkit",
-  "version": "1.1.0",
-  "description": "Reusable portfolio and frontend design workflows: portfolio direction, existing-project redesign, GPT-oriented art direction, interface QA/polish, reference-site reverse engineering, and curated React Bits UI integration.",
+  "version": "1.2.0",
+  "description": "Portfolio and frontend design workflows that preserve project identity, coordinate specialist design skills, and guide redesign, UI motion, reference analysis, audit, polish, and pre-release verification.",
   "author": {
     "name": "HUYNH MINH TUONG"
   },
@@ -16,9 +16,29 @@
     "motion",
     "audit",
     "redesign",
-    "codex",
     "skills",
     "react-bits"
   ],
-  "skills": "./skills/"
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/portfolio-director/SKILL.md",
+      "interface": {
+        "displayName": "Portfolio Design Toolkit",
+        "shortDescription": "Direct, redesign, audit and polish portfolio web experiences",
+        "longDescription": "A project-first portfolio design toolkit that preserves PRODUCT.md, DESIGN.md and AGENTS.md as source-of-truth, then routes work to focused skills for redesign, authored visual direction, React Bits integration, reference-site analysis and final UI/UX polish.",
+        "developerName": "HUYNH MINH TUONG",
+        "category": "Design",
+        "capabilities": [
+          "Read"
+        ],
+        "brandColor": "#111111",
+        "defaultPrompt": [
+          "Improve this portfolio without replacing its established visual identity. Choose only the specialist skills that materially help.",
+          "Audit this portfolio page, identify the highest-impact UX, motion and visual problems, then propose a bounded fix plan.",
+          "Use a reference site for interaction and layout evidence, but reinterpret it through this project's own design system.",
+          "Polish this portfolio for release, focusing on responsive behavior, interaction regressions, accessibility and performance."
+        ]
+      }
+    }
+  }
 }
