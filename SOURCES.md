@@ -6,6 +6,7 @@
 - Source: `.agents/skills/clone-website/`
 - Vendored: `skills/clone-website/`
 - License: MIT
+- Local patch: reference-site reconstruction wording is narrowed for ChatGPT Web/plugin safety; third-party branding, proprietary copy, protected assets, and distinctive identity may not be copied wholesale.
 
 ## redesign-existing-projects
 - Repository: https://github.com/Leonxlnx/taste-skill
