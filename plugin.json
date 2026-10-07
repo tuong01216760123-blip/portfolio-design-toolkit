@@ -2,5 +2,5 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "portfolio-design-toolkit-web",
   "version": "1.0.0",
-  "description": "Portfolio design skills for ChatGPT Web."
+  "description": "Portfolio design and frontend review skills for ChatGPT Web."
 }
