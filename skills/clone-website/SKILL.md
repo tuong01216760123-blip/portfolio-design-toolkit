@@ -1,13 +1,17 @@
 ---
 name: clone-website
-description: Reverse-engineer and clone one or more websites in one shot — extracts assets, CSS, and content section-by-section and proactively dispatches parallel builder agents in worktrees as it goes. Use this whenever the user wants to clone, replicate, rebuild, reverse-engineer, or copy any website. Also triggers on phrases like "make a copy of this site", "rebuild this page", or "pixel-perfect clone". The request must include one or more target URLs.
+description: Analyze one or more reference websites and rebuild their useful layout, interaction, responsive, and technical patterns as an original implementation. Use when the user wants to reverse-engineer, study, recreate, or rebuild a site from reference URLs. Preserve the downstream project identity and do not copy third-party branding, proprietary copy, protected assets, or distinctive identity wholesale.
 ---
 
 # Clone Website
 
-You are about to reverse-engineer and rebuild **the target URL or URLs in the user's request** as pixel-perfect clones.
+You are about to reverse-engineer **the target URL or URLs in the user's request** and rebuild the relevant experience as a high-fidelity but original implementation.
 
 When multiple URLs are provided, preserve every pathname as a distinct route and isolate each target's research, screenshots, components, and assets. URLs that differ only by query string or fragment share a pathname, so resolve their route and state behavior explicitly in the output plan. Parallelize page work only after the shared foundation and output plan are fixed so concurrent builders cannot overwrite one another.
+
+## Rights and reference boundary
+
+Treat references as evidence for layout logic, responsive behavior, motion sequencing, component boundaries, and technical patterns. Do not reproduce third-party logos, trademarks, proprietary copy, protected media, or a distinctive brand identity wholesale. Prefer user-provided or licensed assets, neutral placeholders, and project-owned content. If exact reproduction would cross that boundary, preserve the functional and interaction pattern while changing the expressive implementation.
 
 This is not a two-phase process (inspect then build). You are a **foreman walking the job site** — as you inspect each section of the page, you write a detailed specification to a file, then hand that file to a specialist builder agent with everything they need. Extraction and construction happen in parallel, but extraction is meticulous and produces auditable artifacts.
 
